@@ -9,7 +9,7 @@ templates = Jinja2Templates(directory="templates")
 @app.get("/", response_class="templates")
 def pagina_inicial(request: Request):
     dados = {
-        "pagina": "Página Inicial!"
+        "pagina": "Página Inicial!!"
     }
     
     return templates.TemplateResponse(
